@@ -1,26 +1,38 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { ArtworkService } from './artwork.service'; 
+import { Artwork, ArtworkService } from './artwork.service';
 
 @Component({
+  standalone: true,
   selector: 'app-root',
+  imports: [HttpClientModule, CommonModule], 
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  standalone: true, 
-  imports: [CommonModule] 
+  providers: [ArtworkService] 
 })
-export class AppComponent {
-  title = 'Картинная галерея';
-  artworks: any[] = [];
-  selectedArtwork: any = null;
+export class AppComponent implements OnInit {
+  title = 'Art Gallery'; 
+  artworks: Artwork[] = [];
+  selectedArtwork: Artwork | null = null;
 
   constructor(private artworkService: ArtworkService) {}
 
   ngOnInit(): void {
-    this.artworks = this.artworkService.getArtworks();
+    this.artworkService.getArtworks().subscribe((data) => {
+      this.artworks = data;
+    });
   }
 
-  onSelect(artwork: any): void {
+  selectArtwork(artwork: Artwork): void {
     this.selectedArtwork = artwork;
+  }
+
+  clearSelection(): void {
+    this.selectedArtwork = null;
+  }
+
+  onSelect(artwork: any) {
+    this.selectedArtwork = artwork; 
   }
 }

@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Starry Night",
+      "author": "Vincent van Gogh",
+      "year": 1889,
+      "dimensions": "73.7 cm × 92.1 cm",
+      "location": "Museum of Modern Art, New York City",
+      "imageUrl": "/assets/images/starry-night.jpg",
+      "thumbnailUrl": "/assets/images/starry-night.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Mona Lisa",
+      "author": "Leonardo da Vinci",
+      "year": 1503,
+      "dimensions": "77 cm × 53 cm",
+      "location": "Louvre Museum, Paris",
+      "imageUrl": "/assets/images/mona-lisa.jpg",
+      "thumbnailUrl": "/assets/images/mona-lisa.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Persistence of Memory",
+      "author": "Salvador Dalí",
+      "year": 1931,
+      "dimensions": "24 cm × 33 cm",
+      "location": "Museum of Modern Art, New York City",
+      "imageUrl": "/assets/images/persistence-of-memory.jpg",
+      "thumbnailUrl": "/assets/images/persistence-of-memory.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Scream",
+      "author": "Edvard Munch",
+      "year": 1893,
+      "dimensions": "91 cm × 73.5 cm",
+      "location": "National Gallery, Oslo",
+      "imageUrl": "/assets/images/the-scream.jpg",
+      "thumbnailUrl": "/assets/images/the-scream.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Girl with a Pearl Earring",
+      "author": "Johannes Vermeer",
+      "year": 1665,
+      "dimensions": "44.5 cm × 39 cm",
+      "location": "Mauritshuis, The Hague",
+      "imageUrl": "/assets/images/girl-with-a-pearl-earring.jpg",
+      "thumbnailUrl": "/assets/images/girl-with-a-pearl-earring.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Birth of Venus",
+      "author": "Sandro Botticelli",
+      "year": 1485,
+      "dimensions": "172.5 cm × 278.9 cm",
+      "location": "Uffizi Gallery, Florence",
+      "imageUrl": "/assets/images/the-birth-of-venus.jpg",
+      "thumbnailUrl": "/assets/images/the-birth-of-venus.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Night Watch",
+      "author": "Rembrandt van Rijn",
+      "year": 1642,
+      "dimensions": "363 cm × 437 cm",
+      "location": "Rijksmuseum, Amsterdam",
+      "imageUrl": "/assets/images/the-night-watch.jpg",
+      "thumbnailUrl": "/assets/images/the-night-watch.jpg"
+    }
+  ]
+  
